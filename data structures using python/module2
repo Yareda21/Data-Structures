@@ -1,0 +1,26 @@
+# Module 2: Stack and Queue
+
+## 1. Introduction to Stacks and Queues
+
+In this module, you'll learn about stacks and queues, their implementations, and their applications in real-world scenarios.
+
+### Learning Outcomes
+
+By the end of this module, you will be able to:
+
+-   Understand the concepts of stacks and queues and how they differ.
+-   Implement stacks and queues in Python and Java.
+-   Solve problems using stacks and queues, such as balanced parentheses, stock span problems, and sliding window maximum.
+
+## Lesson 1: Understanding Stacks
+
+### Definition:
+
+A stack is a Last In, First Out (LIFO) data structure where the last element added is the first to be removed.
+
+### Operations:
+
+-   **push(x)**: Add an element to the top of the stack.
+-   **pop()**: Remove and return the top element.
+-   **peek() / top()**: View the top element without removing it.
+-   **isEmpty()**: Check if the stack is empty.
