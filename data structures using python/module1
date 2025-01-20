@@ -1,0 +1,54 @@
+# Module 1: Basics and Arrays
+
+## Step 1: Understanding Arrays
+
+**Definition:** Arrays are a collection of elements stored in contiguous memory locations.
+
+### Key Operations:
+
+-   **Access:** O(1) time for direct access by index.
+-   **Search:** O(n) for linear search; O(log n) for binary search (sorted arrays).
+-   **Insertion/Deletion:** Expensive due to the need for shifting elements.
+
+### Why Arrays Matter
+
+-   Arrays are foundational in building other data structures (e.g., heaps, matrices).
+-   They enable indexed access to elements, which is critical for performance.
+
+### How You'll Use Arrays
+
+-   Storing ordered data (e.g., user scores, product lists).
+-   Basis for advanced algorithms like sliding window, two-pointer, or divide and conquer.
+
+### Practical Applications
+
+-   **Leaderboard System:** Store and retrieve scores quickly.
+-   **Matrix Operations:** Represent images, graphs, or board games.
+
+## Step 2: Practical Problems
+
+Let's solve the following problems step by step in Python or Java (your choice). I'll guide you through implementation and optimization.
+
+### Problem 1: Reverse an Array
+
+**Prompt:** Write a function to reverse an array in place.  
+**Example:**
+
+-   **Input:** `[1, 2, 3, 4, 5]`
+-   **Output:** `[5, 4, 3, 2, 1]`
+
+### Problem 2: Maximum Subarray Sum (Kadane's Algorithm)
+
+**Prompt:** Find the contiguous subarray with the largest sum.  
+**Example:**
+
+-   **Input:** `[-2, 1, -3, 4, -1, 2, 1, -5, 4]`
+-   **Output:** `6` (Subarray: `[4, -1, 2, 1]`)
+
+### Problem 3: Merge Two Sorted Arrays
+
+**Prompt:** Merge two sorted arrays into a single sorted array without duplicates.  
+**Example:**
+
+-   **Input:** `arr1 = [1, 3, 5], arr2 = [2, 4, 6]`
+-   **Output:** `[1, 2, 3, 4, 5, 6]`
