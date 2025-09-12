@@ -79,8 +79,44 @@ class CustomeStack {
     }
 }
 
+class CustomQueue {
+    private int[] queue;
+    private int front;
+    private int rear;
+    private int size;
+    private int capacity;
+
+
+    public CustomQueue(int capacity) {
+        this.capacity = capacity;
+        queue = new int[this.capacity];
+        front = 0;
+        rear = -1;
+        size = 0;
+        
+    }
+
+    public boolean isFull() {
+        return queue.length == 0;
+    }
+
+    public void enqueue() {
+        if (isFull()) {
+            throw new IllegalStateException("Queue is Full!!");
+        }
+        
+        rear = (rear + 1) % capacity;
+    }
+
+
+    
+}
+
+
+
+
 /**
- * Main class to demonstrate the functionality of the CustomeStack.
+ * Main class to demonstrate the functionality of the CustomeStack and CustomQueue.
  */
 public class Module2 {
 

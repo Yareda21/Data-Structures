@@ -24,3 +24,16 @@ A stack is a Last In, First Out (LIFO) data structure where the last element add
 -   **pop()**: Remove and return the top element.
 -   **peek() / top()**: View the top element without removing it.
 -   **isEmpty()**: Check if the stack is empty.
+
+## Lesson 2: Understanding Queues
+
+### Definition:
+
+A queue is a First In, First Out (FIFO) data structure where the first element added is the first to be removed.
+
+### Operations:
+
+-   **enqueue(x)**: Add an element to the rear.
+-   **dequeue()**: Remove and return the front element.
+-   **front()**: View the front element without removing it.
+-   **isEmpty()**: Check if the queue is empty.
